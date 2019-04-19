@@ -16,7 +16,7 @@ known_face_names = []
 
 db = pymysql.connect("localhost","root","","baiduyun" )
 cursor = db.cursor()
-sql = "select * from face where tzm !=0 order by id asc limit 0,3"
+sql = "select * from face order by id asc limit 1083,2"
 cursor.execute(sql)
 results = cursor.fetchall()
 for row in results:
