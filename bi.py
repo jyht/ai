@@ -11,7 +11,7 @@ sql = "select * from face order by id asc"
 cursor.execute(sql)
 results = cursor.fetchall()
 
-img_a = fr.load_image_file("1.png")
+img_a = fr.load_image_file("1.jpeg")
 encoding_a = fr.face_encodings(img_a)[0]
 
 mao = []

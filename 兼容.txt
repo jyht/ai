@@ -1,0 +1,3 @@
+sift = cv2.xfeatures2d.SIFT_create()
+图片特征检测如果提示sift 找不到。需要改版本
+pip install opencv-contrib-python==3.4.0.12 -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
