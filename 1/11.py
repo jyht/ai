@@ -3,8 +3,8 @@ from os import walk
 import numpy as np
 import cv2
 
-query = cv2.imread('1.jpg', 0)
-folder = 'npy' # 文件夹
+query = cv2.imread('3.jpg', 0)
+folder = 'C:\\ai\\1'
 descriptors = []
 # 获取特征数据文件名
 for (dirpath, dirnames, filenames) in walk(folder):
@@ -33,10 +33,6 @@ for d in descriptors:
             good.append(m)
     # 输出每张图片与目标图片的匹配数目
     print("img is %s ! matching rate is (%d)" % (d, len(good)))
-    if (len(good)) >100:
-        print('-------------')
-        print("img is %s ! matching rate is (%d)" % (d, len(good)))
-        break
     potential_culprits[d] = len(good)
 
 # 获取最多匹配数目的图片
@@ -47,4 +43,4 @@ for culprit, matches in potential_culprits.items():
         max_matches = matches
         potential_suspect = culprit
 
-#print("potential suspect is %s" % potential_suspect.replace("npy", "").upper())
+print("potential suspect is %s" % potential_suspect.replace("npy", "").upper())
