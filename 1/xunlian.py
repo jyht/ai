@@ -23,5 +23,5 @@ def save_descriptor(folder, image_path, feature_detector):
     np.save(join(folder, descriptor_file), descriptors)
 
 if __name__=='__main__':
-    path = 'C:\\ai\\1'
+    path = 'C:\\ai\\1' #源
     create_descriptors(path)
