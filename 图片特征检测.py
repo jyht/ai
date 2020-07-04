@@ -1,6 +1,6 @@
 import cv2
 # 读取图片并灰度处理
-imgpath = '1.jpeg'
+imgpath = '1.jpg'
 img = cv2.imread(imgpath)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # 创建SIFT对象
