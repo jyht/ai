@@ -22,3 +22,6 @@ https://learnku.com/articles/40393
 D:\Anaconda3\envs\tensorflow\Lib\site-packages\tensorflow\include\tensorflow\stream_executor\platform\default
 
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1
+
+
+pip install ×××× -i https://mirrors.aliyun.com/pypi/simple
