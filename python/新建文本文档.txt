@@ -17,3 +17,6 @@ https://learnku.com/articles/40393
 
 
 
+
+
+D:\Anaconda3\envs\tensorflow\Lib\site-packages\tensorflow\include\tensorflow\stream_executor\platform\default
