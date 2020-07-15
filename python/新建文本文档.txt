@@ -8,3 +8,7 @@ conda config --setshow_channel_urls yes
 
 
 pip install --upgrade tensorflow-gpu
+
+
+gpu 安装报错 
+https://learnku.com/articles/40393
