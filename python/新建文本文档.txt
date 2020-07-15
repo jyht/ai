@@ -12,3 +12,6 @@ pip install --upgrade tensorflow-gpu
 
 gpu 安装报错 
 https://learnku.com/articles/40393
+
+
+conda install --channel https://conda.anaconda.org/anaconda tensorflow=1.6.0
