@@ -2,8 +2,7 @@
 anaconda
 
 
-conda config --addchannels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --setshow_channel_urls yes
+
 
 
 
