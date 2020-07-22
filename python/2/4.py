@@ -17,4 +17,3 @@ print('预测结果:\n', LR.predict(X_test))
 print('预测各标签的概率值:\n', LR.predict_proba(X_test))
  
 print('训练集准确率:', LR.score(X_train,Y_train))
-
