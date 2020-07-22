@@ -2,6 +2,7 @@ import tensorflow as tf
 import os
 import numpy as np
 import matplotlib.pyplot as plt
+#https://blog.csdn.net/m0_38056893/article/details/105207945
  
  
 base_dir = './dataset/'
