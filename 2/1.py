@@ -3,6 +3,9 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 #https://blog.csdn.net/m0_38056893/article/details/105207945
+#train训练集和validation验证集两部分
+#再此案例中，train/cats下放了cat.0.jpg ~ cat.999.jpg共1000张图片，train/dogs下放了cat.0.jpg ~ cat.999.jpg共1000张图片，validation/cats下放了cat.2000.jpg ~ cat.2499.jpg共500张图片，validation/dogs下放了dog.2000.jpg ~ dog.2499.jpg共500张图片。
+
  
  
 base_dir = './dataset/'
